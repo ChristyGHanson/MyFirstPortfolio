@@ -1,0 +1,39 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+#navigation {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#photo {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+#about {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#contact {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#resume {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#projects {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
