@@ -2,12 +2,23 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- links CSS file to HTML file -->
-    <link rel="stylesheet" href="style.css">
+    < !-- This links CSS file to HTML file -->
+        <link rel="stylesheet" href="style.css">
+        <!--This is the style.-->
+        <!--Includes a pseudo-class called :hover.-->
+        <style>
+            a.highlight:hover {
+                color: blueviolet;
+                font-size: 22px;
+            }
+
+            midd
+        </style>
 
 </head>
 
@@ -17,6 +28,7 @@
             <!--child element of header-->
             <h1>Website Portfolio</h1>
             <nav>
+                <!--Anchor tagged navigation links.-->
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
                 <a href="#resume">Resume</a>
@@ -25,7 +37,7 @@
         </header>
     </div>
 
-    <div class="photo-container" id="photo">
+    <div class="photo-container" id="avatar">
         <h1>Christy Hanson</h1>
         <img src="chanson.jpg" alt="photo" style="width: 20%;height:20%;">
     </div>
@@ -55,9 +67,17 @@
 
     <div class="projects-container" id="projects">
         <h1>Projects</h1>
-        <a href="https://github.com/ChristyGHanson" target="_blank">GitHub</a>
+        <!--Needs pseudoclass and HTML classes.-->
+        <a class="highlight" href="https://github.com/ChristyGHanson" target="_blank">GitHub</a>
+        <a href="" target="_blank"> Module 2</a>
         <p>More GitHub projects will appear here soon!</p>
+        <!--Make this image pop when the mouse hovers over it.-->
+        <img src="placeholder-image.png" alt="photo" style="width:20%">
+
+
+    </div>
     </div>
 
-
 </body>
+
+</html>

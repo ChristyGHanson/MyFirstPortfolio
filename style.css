@@ -5,34 +5,40 @@
 
 }
 
+/*Navigation bar styling*/
 #navigation {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 }
 
-#photo {
+/*CSS styling for my photo section.*/
+#avatar {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 
 
 }
 
+/*CSS styling for the About section.*/
 #about {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 
 }
 
+/*CSS styling for the Contact section.*/
 #contact {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*CSS styling for the resume section.*/
 #resume {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*CSS styling for the Projects section.*/
 #projects {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
