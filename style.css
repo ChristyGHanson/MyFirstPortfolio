@@ -9,37 +9,40 @@
 #navigation {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
+    justify-content: flex-start;
 }
 
 /*CSS styling for my photo section.*/
 #avatar {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
-
-
+    justify-content: flex-start;
 }
 
 /*CSS styling for the About section.*/
 #about {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
-
+    justify-content: flex-start;
 }
 
 /*CSS styling for the Contact section.*/
 #contact {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
+    justify-content: flex-start;
 }
 
 /*CSS styling for the resume section.*/
 #resume {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
+    justify-content: flex-start;
 }
 
 /*CSS styling for the Projects section.*/
 #projects {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
+    justify-content: flex-start;
 }
