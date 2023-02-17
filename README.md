@@ -1,24 +1,28 @@
-# Module 02 Challenge
+# Developer Portfolio: Christy G. Hanson
 
-[GitHub Repo Link](https://github.com/ChristyGHanson/MyFirstPortfolio)
+## URLs
 
-## Advanced CSS Challenge: Professional Portfolio
+* [GitHub Remote Repo](https://github.com/ChristyGHanson/MyFirstPortfolio)
+* [Deployed Portfolio Website](https://christyghanson.github.io/UW-Module02-Challenge-Hanson/)
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses.
+## Description
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can't be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies.
+This is my web portfolio I am building from scratch! I am adding to it as the UW Bootcamp course progresses.
 
-With these points in mind, in this Challenge you'll set yourself up for future success by applying the core skills you've recently learned: 
+This portfolio of work will showcase my skills and talents to future employers.
 
-- flexbox
-- media queries
-- CSS variables 
-- link in JS file as of January 2023.
+I am applying these core skills:
+
+* Bulma
+* Flexbox
+* Font Awesome
+* media queries
+* HTML, CSS, and JavaScript
 
 Note: If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
 
 ## User Story
-AS AN employer I WANT to view a potential employee's deployed portfolio of work samples SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+Employers want to view a potential employee's deployed portfolio of work samples so that they can review samples of their work and assess whether they're a good candidate for an open position.
 
 ## Acceptance Criteria
 
