@@ -5,97 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--The title of this webpage is enclosed below.-->
-    <title>Christy Hanson's Professional Portfolio</title>
-    <!-- This links the CSS file to this HTML file -->
-    <link rel="stylesheet" href="style.css">
-    <!--This is the style.-->
-    <!--Includes a pseudo-class called :hover.-->
-    <style>
-        a.highlight:hover {
-            color: blueviolet;
-            font-size: 22px;
-        }
-    </style>
+    <title>Christy Hanson's Portfolio</title>
+    <!-- Bulma CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1ab18d062.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="navigation-links" id="navigation">
-        <header>
-            <!--child element of header-->
-            <h1>Website Portfolio</h1>
-            <!--HTML semantic tag: nav-->
-            <nav>
-                <!--Anchor tagged navigation links.-->
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-                <a href="#resume">Resume</a>
-                <a href="#projects">Projects</a>
-            </nav>
-        </header>
-    </div>
+    <!-- hero--------------->
 
-    <div class="photo-container" id="avatar">
-        <h1>Christy Hanson</h1>
-        <!--HTML semantic tag: figure -->
-        <figure>
-            <img src="chanson.jpg" alt="photo" style="width: 20%;height:20%;">
-        </figure>
-    </div>
-
-    <div class="about-container" id="about">
-        <!--HTML semantic tag: article -->
-        <article>
-            <h1>About</h1>
-            <p>Before I became a UW Bootcamp learner, I was a community manager at 7 Generation Games. For
-                two years,
-                my focus had centered on expanding the reach
-                of 7 Generation
-                Games and its federally
-                funded project, Growing Math. This project delivered teacher training webinars, digital lesson resources
-                and
-                math games at no cost. Growing Math homed in on six U.S. states with Indigenous and Latino populations.
-                I
-                was previously a middle school educator for three years.</p>
-        </article>
-    </div>
-
-    <div class="contact-container" id="contact">
-        <!--HTML semantic tag: article -->
-        <article>
-            <h1>Contact</h1>
-            <!--Enables it to be more user-friendly.-->
-            <a href="mailto:chrsthnsn@gmail.com" target="_blank">Email</a>
-        </article>
-    </div>
-
-    <div class="resume-container" id="resume">
-        <h1>Resume</h1>
-        <!--HTML semantic tag: article -->
-        <article>
-            <a href="https://www.linkedin.com/in/christyghanson/" target="_blank">LinkedIn</a>
-        </article>
-    </div>
-
-    <div class="projects-container" id="projects">
-        <article>
-            <h1>Projects</h1>
-            <!--Needs pseudoclass and HTML classes.-->
-            <a class="highlight" href="https://github.com/ChristyGHanson" target="_blank">GitHub</a>
-            <a class="highlight" href="https://github.com/caseyfee/EventDash" target="_blank">EventDash (Project 1)</a>
-            <p>Note: More UW Bootcamp projects will appear here soon!</p>
-            <!--Make this image pop when the mouse hovers over it.-->
-            <!--HTML semantic tag: figure-->
-            <figure>
-                <img src="placeholder-image.png" alt="photo" style="width:20%">
-            </figure>
-        </article>
+    <section class="hero has-background-danger-light">
+        <div class="hero-body">
+            <h1 class="title is-1 has-text-grey-dark">Developer Portfolio</h1>
+            <h2 class="subtitle has-text-grey-dark">The journey is up to you.</h2>
+        </div>
+    </section>
 
 
-    </div>
-    </div>
-    <!--JavaScript file-->
-    <script src="script.js"></script>
+    <!-- Bulma dynamic columns powered by Flexbox. -->
+    <div class="columns">
+        <div class="column">
+            <p class="bd-notification is-info"></p>
+            <h1 class="title">Christy Hanson</h1>
+            <div class="navigation-links" id="navigation">
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <p class="bd-notification is-info"></p>
+
+                        <!--Anchor tagged navigation links.-->
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+
+                    </div>
+                    <div class="column">
+                        <p class="bd-notification is-info"></p>
+                        <a href="https://www.linkedin.com/in/christyghanson/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:chrsthnsn@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                        <!-- Enabled hyperlinked icons to open in a new tab. -->
+                        <a href="https://github.com/ChristyGHanson" target="_blank" rel="noopener noreferrer"><i
+                                class="py-1 self-center fa-brands fa-github-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-container" id="avatar">
+                <figure>
+                    <br><img src="chanson.jpg" alt="photo" style="width: 10%;height:20%;">
+                </figure><br>
+            </div>
+            <div class="about-container" id="about">
+                <h1 class="title">About Me</h1>
+                <p>Hi! My name is Christy. I'm from the Navajo Nation.</p>
+                <p> I first got into coding in 2018, but I finally
+                    decided
+                    to take programming more seriously in 2022.</p>
+                <p>Web development looked the most fun, so here I am.</p>
+                <p>Before I became a UW Bootcamp student, I was a community
+                    manager at 7 Generation Games, an edutech software company. </p>
+                <p>I was also an English teacher once upon a time. Guess I'm going from education to tech.</p>
+                <p>My favorite hobby is knitting while watching shows or listening to audiobooks, music, and podcasts.
+                </p>
+                <p>I have a Syrian hamster named Peach.</p>
+
+                <br>
+            </div>
+            <div class="projects-container" id="projects">
+                <h1 class="title">Projects</h1>
+                <p>⭐ View my team's <a href="https://github.com/caseyfee/EventDash" target="_blank"
+                        rel="noopener noreferrer">Project 1 remote repo</a> for our application called <a
+                        href="https://caseyfee.github.io/EventDash/" target="_blank"
+                        rel="noopener noreferrer">"EventDash."</a></p>
+
+                <br>
+                <p>P.S. I'm re-styling this webpage with Bulma. Loving it!</p>
+            </div>
+        </div>
+
+
+
+        <footer class="">
+        </footer>
+        <!--JavaScript file-->
+        <script src="script.js"></script>
 </body>
 
 </html>
