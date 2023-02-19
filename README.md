@@ -1,9 +1,11 @@
 # Developer Portfolio: Christy G. Hanson
 
+![PLACEHOLDER-SCREENSHOT](assets/images/readme-screenshot-placeholder.png)
+
 ## URLs
 
-* [GitHub Remote Repo](https://github.com/ChristyGHanson/MyFirstPortfolio)
-* [Deployed Portfolio Website](https://christyghanson.github.io/UW-Module02-Challenge-Hanson/)
+* [GitHub Remote Repo](https://github.com/ChristyGHanson/christyghanson-web-portfolio)
+* [Deployed Portfolio Website](https://christyghanson.github.io/christyghanson-web-portfolio/)
 
 ## Description
 
