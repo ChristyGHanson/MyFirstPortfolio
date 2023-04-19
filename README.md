@@ -9,7 +9,7 @@
 
 ## Description
 
-This is my web portfolio I am building from scratch! I am adding to it as the UW Bootcamp course progresses.
+This is my web developer portfolio I am building from scratch. I will be updating it as my UW Bootcamp course progresses.
 
 This portfolio of work will showcase my skills and talents to future employers.
 
@@ -20,8 +20,6 @@ I am applying these core skills:
 * Font Awesome
 * media queries
 * HTML, CSS, and JavaScript
-
-Note: If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
 
 ## User Story
 Employers want to view a potential employee's deployed portfolio of work samples so that they can review samples of their work and assess whether they're a good candidate for an open position.
